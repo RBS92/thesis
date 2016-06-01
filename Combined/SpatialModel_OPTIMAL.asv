@@ -1,0 +1,7 @@
+posAggregators = SpatialModel_OPTIMAL(R,n);
+
+optimalfile = ['cci',num2str(n)];
+load(['cci_coords/',optimalfile,'.txt']);
+cci5 = reshape(cci5,n,3);
+cci5 = cci5*R;
+
